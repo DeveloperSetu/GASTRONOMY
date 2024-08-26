@@ -1,0 +1,1640 @@
+/* ============ Extra Small  Mobile Device============= */
+@media only screen and (max-width:600px) {
+    /* ================================Header================================ */
+    header {
+        background: transparent;
+        position: relative;
+        z-index: 1;
+        color: white;
+        padding: 20px;
+        height: 90px;
+    }
+
+    header nav{
+        display: block;
+        justify-content: center;
+    }
+    header .logo{
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--primary);
+    }
+    header nav  #ul {
+        display: none;
+        justify-content: center;
+        width: 100%;
+        background: #000;
+        margin-top: 40px;
+        padding: 30px;
+        border-radius: 8px;
+    }
+    header nav  a,li{
+        padding: 22px;
+        color: white;
+        font-size: 18px;
+        padding: 10px;
+    }
+    header #subMenu{
+        display: none;
+        position: relative;
+        z-index: 3;
+        color: white;
+        background: var(--lightBlack);
+        width: 350px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    header #parentSub:hover #subMenu{
+        display: block;
+    }
+    header #toggleMenu{
+        display: block;
+        font-size: 22px;  
+        float: right;
+        margin-top: -30px;
+        background: var(--lightBlack);
+        padding: 6px 7px;
+        color: var(--primary);
+        border-radius: 2px;
+      }
+    header #togglecencle{
+        font-size: 22px;  
+        display: block;
+        float: right;
+        margin-top: -30px;
+        display: none;
+        background: var(--lightBlack);
+        padding: 6px 7px;
+        color: var(--primary);
+        border-radius: 2px;
+    }
+    
+    header .orderNow{
+        display: none;
+        background: transparent;
+        border: 1px solid var(--primary);
+        color: white;
+        padding: 15px 30px;
+        border-radius: 30px;
+        text-align: center;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    header .orderNow:hover{
+        background: var(--primary);
+        
+    }
+    /* =================================section1============================== */
+    #section1{
+        background: url(images/carousel-1\ \(1\).jpg);
+        height: 110vh;
+        margin-top: -155px;
+    }
+    #section1 #sectionContainer{
+        background: var(--shadow);
+        height: 110vh;
+    }
+    #section1 #sectionContainer .container{
+        padding-top: 48%;
+    }
+    .span{
+        color: var(--primary);
+        font-weight: bold;
+        text-shadow: 1px 1px 4px var(--lightBlack);
+    }
+    
+    .title{
+        font-family: "Playfair Display";
+        font-size: 50px;
+        font-weight: 96px;
+        color: white;
+        text-shadow: 1px 1px 4px var(--lightBlack);
+    }
+    .description{
+        color: white;
+        text-shadow: 1px 1px 4px var(--lightBlack);
+    }
+    
+    .commonBtn{
+        background: var(--primary);
+        border: 1px solid var(--primary);
+        color: white;
+        padding: 15px 38px;
+        border-radius: 30px;
+        text-align: center;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+      
+/* =================================section2============================== */
+    #section2{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: white;
+        font-family: "Playfair Display";
+    }
+    #section2 .container{
+        display: block;
+        justify-content: center;
+        align-items: center; 
+    }
+    #section2 .gridContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 390px);
+    }
+    #section2 .gritItem{
+        background: white;
+        box-shadow: 1px 1px 6px gray;
+        padding: 20px;
+        text-align: center;
+        height: 290px;
+        margin-top: 20px;
+    }
+
+    #section2 .gritItem:hover{
+        background: var(--secondary);
+        box-shadow: 1px 1px 8px black;
+    }
+    #section2 i{
+        color: var(--primary);
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    #section2 h1{
+        font-size: 50px;
+        margin-top: 20px;
+        font-weight: 800;
+    }
+
+    #section2 span{
+        color: black;
+        font-size: 20px;
+    }
+/* =================================section3============================== */
+    #section3{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-bottom: 100px;
+    }
+
+    #section3 img{
+       width: 460px;
+    }
+    #section3 #div2{
+        margin-top: 40px;
+    }
+    #section3 .span{
+        color: var(--primary);
+        font-weight: bold;
+        text-shadow: none;
+    }
+
+    #section3 .title{
+        font-family: "Playfair Display";
+        font-size: 40px;
+        color: black;
+        line-height: 50px;
+        text-shadow: none;
+    }
+    #section3 p{
+        color: gray;
+    }
+    #section3 i{
+        color: var(--primary);
+        font-size: 18px;
+        float: left;
+        padding: 8px;
+     }
+     #section3 span{
+        color: black;
+        font-weight: bold;
+    } 
+/* =================================section6============================== */
+    #section6{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: "Playfair Display";
+    
+    }
+    
+    #section6 span{
+        color: var(--primary);
+        font-weight: bold;
+    }
+    
+    #section6 h1{
+        font-family: "Playfair Display";
+        font-size: 40px;
+        color: black;
+        line-height: 50px;
+    }
+    #section6 img{
+       width: 450px;
+    }
+    #section6 #div2{
+        margin-top: 40px;
+    }
+    
+    #section6 p{
+        color: gray;
+    }
+    #section6 i{
+        height: 100%;
+        color:white;
+        font-size: 18px;
+        float: left;
+        padding: 8px;
+        background: var(--primary);
+        border-radius: 30px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+     }   
+/* =================================section7============================== */
+    #section7{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Playfair Display";
+    }
+    #section7 h1 , span {
+        text-align: center;
+    }
+    #section7 .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(auto-fill , 460px);
+        column-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+    #section7 .gridContainer .gridItem1{
+        height: 80vh;
+        background: url(images/man1.jpg) no-repeat;
+        background-size: contain;
+    }
+
+    #section7 .gridContainer .gridItem2{
+        height: 80vh;
+        background: url(images/man2.jpg) no-repeat;
+        background-size: contain;
+    }
+    #section7 .gridContainer .gridItem3{
+        height: 80vh;
+        background: url(images/man3.jpg) no-repeat;
+        background-size: contain;
+    }
+    #section7 .gridContainer .gridItem4{
+        height: 80vh;
+        background: url(images/man4.jpg) no-repeat;
+        background-size: contain;
+    }
+
+    #section7 .surface{
+        display: none;
+        background: var(--shadow);
+        height: 0;
+        transition: 2s;
+    }
+    #section7 .cart:hover .surface{
+        display: block;
+        background: var(--shadow);
+        height: 80vh;
+    }
+    
+    #section7 .surface h1{
+        text-align: center;
+        padding-top: 300px;
+        color: white;
+    }
+    #section7 .surface p{
+        text-align: center;
+        color: white;
+    }
+    #section7 .surface .socialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #section7 i{
+        color: white;
+        background: var(--primary);
+        padding: 8px;
+        border-radius: 20px;
+        margin: 6px;
+    } 
+}
+/* ============   Mobile Device============= */
+@media only screen and (min-width:600px) {
+/* ================================Header================================ */
+    header {
+        background: transparent;
+        position: relative;
+        z-index: 1;
+        color: white;
+        padding: 20px;
+        height: 90px;
+    }
+
+    header nav{
+        display: block;
+        justify-content: center;   
+    }
+    header .logo{
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--primary);
+    }
+    header nav  #ul {
+        display: none;
+        justify-content: center;
+        width: 100%;
+        background: #000;
+        margin-top: 40px;
+        padding: 30px;
+        border-radius: 8px;
+    }
+    header nav  a,li{
+        padding: 22px;
+        color: white;
+        font-size: 18px;
+        padding: 10px;
+    }
+    header #subMenu{
+        display: none;
+        position: relative;
+        z-index: 3;
+        color: white;
+        background: var(--lightBlack);
+        width: 350px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    header #parentSub:hover #subMenu{
+        display: block;
+    }
+    header #toggleMenu{
+        display: block;
+        font-size: 22px;  
+        float: right;
+        margin-top: -30px;
+        background: var(--lightBlack);
+        padding: 6px 7px;
+        color: var(--primary);
+        border-radius: 2px;
+      }
+    header #togglecencle{
+        font-size: 22px;  
+        display: block;
+        float: right;
+        margin-top: -30px;
+        display: none;
+        background: var(--lightBlack);
+        padding: 6px 7px;
+        color: var(--primary);
+        border-radius: 2px;
+    }
+    
+    header .orderNow{
+        display: none;
+        background: transparent;
+        border: 1px solid var(--primary);
+        color: white;
+        padding: 15px 30px;
+        border-radius: 30px;
+        text-align: center;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    header .orderNow:hover{
+        background: var(--primary);
+        
+    }
+    /* =================================section1============================== */
+    #section1{
+        background: url(images/carousel-1\ \(1\).jpg);
+        height: 100vh;
+        margin-top: -155px;
+    }
+    #section1 #sectionContainer{
+        background: var(--shadow);
+        height: 100vh;
+    }
+    #section1 #sectionContainer .container{
+        padding-top: 38%;
+    }
+    span{
+        color: var(--primary);
+        font-weight: bold;
+    }
+    
+    .title{
+        font-family: "Playfair Display";
+        font-size: 60px;
+        font-weight: 96px;
+        color: white;
+    }
+    .description{
+        color: white;
+    }
+    
+    .commonBtn{
+        background: var(--primary);
+        border: 1px solid var(--primary);
+        color: white;
+        padding: 15px 38px;
+        border-radius: 30px;
+        text-align: center;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+      
+/* =================================section2============================== */
+    #section2{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: white;
+        font-family: "Playfair Display";
+    }
+    #section2 .container{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    #section2 .gridContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 390px);
+    }
+    #section2 .gritItem{
+        background: white;
+        box-shadow: 1px 1px 6px gray;
+        padding: 20px;
+        text-align: center;
+        height: 290px;
+        margin-top: 20px;
+    }
+
+    #section2 .gritItem:hover{
+        background: var(--secondary);
+        box-shadow: 1px 1px 8px black;
+    }
+    #section2 i{
+        color: var(--primary);
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    #section2 h1{
+        font-size: 50px;
+        margin-top: 20px;
+        font-weight: 800;
+    }
+
+    #section2 span{
+        color: black;
+        font-size: 20px;
+    }
+     /* =================================section3============================== */
+     #section3{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-bottom: 100px;
+    }
+
+    #section3 img{
+       width: 460px;
+    }
+    #section3 #div2{
+        margin-top: 40px;
+    }
+    #section3 .span{
+        color: var(--primary);
+        font-weight: bold;
+        text-shadow: none;
+
+    }
+
+    #section3 .title{
+        font-family: "Playfair Display";
+        font-size: 40px;
+        color: black;
+        line-height: 50px;
+        text-shadow: none;
+    }
+    #section3 p{
+        color: gray;
+    }
+    #section3 i{
+        color: var(--primary);
+        font-size: 18px;
+        float: left;
+        padding: 8px;
+     }
+     #section3 span{
+        color: black;
+        font-weight: bold;
+    }
+/* =================================section6============================== */
+    #section6{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: "Playfair Display";
+    
+    }
+    
+    #section6 span{
+        color: var(--primary);
+        font-weight: bold;
+    }
+    
+    #section6 h1{
+        font-family: "Playfair Display";
+        font-size: 40px;
+        color: black;
+        line-height: 50px;
+    }
+    #section6 img{
+       width: 450px;
+    }
+    #section6 #div2{
+        margin-top: 40px;
+    }
+    
+    #section6 p{
+        color: gray;
+    }
+    #section6 i{
+        height: 100%;
+        color:white;
+        font-size: 18px;
+        float: left;
+        padding: 8px;
+        background: var(--primary);
+        border-radius: 30px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+   } 
+   /* =================================section7============================== */
+     #section7{
+         height: 100%;
+         width: 100%;
+         background: white;
+         padding-top: 70px;
+         padding-bottom: 70px;
+         padding-left: 20px;
+         padding-right: 20px;
+         font-family: "Playfair Display";
+     }
+     #section7 h1 , span {
+         text-align: center;
+     }
+     #section7 .gridContainer{
+         display: grid;
+         grid-template-columns: repeat(auto-fill , 460px);
+         column-gap: 20px;
+         justify-content: center;
+         align-items: center;
+         margin-top: 60px;
+     }
+     #section7 .gridContainer .gridItem1{
+         height: 80vh;
+         background: url(images/man1.jpg) no-repeat;
+         background-size: contain;
+     }
+ 
+     #section7 .gridContainer .gridItem2{
+         height: 80vh;
+         background: url(images/man2.jpg) no-repeat;
+         background-size: contain;
+     }
+     #section7 .gridContainer .gridItem3{
+         height: 80vh;
+         background: url(images/man3.jpg) no-repeat;
+         background-size: contain;
+     }
+     #section7 .gridContainer .gridItem4{
+         height: 80vh;
+         background: url(images/man4.jpg) no-repeat;
+         background-size: contain;
+     }
+ 
+     #section7 .surface{
+         display: none;
+         background: var(--shadow);
+         height: 0;
+         transition: 2s;
+     }
+     #section7 .cart:hover .surface{
+         display: block;
+         background: var(--shadow);
+         height: 80vh;
+     }
+     
+     #section7 .surface h1{
+         text-align: center;
+         padding-top: 300px;
+         color: white;
+     }
+     #section7 .surface p{
+         text-align: center;
+         color: white;
+     }
+     #section7 .surface .socialMedia{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     #section7 i{
+         color: white;
+         background: var(--primary);
+         padding: 8px;
+         border-radius: 20px;
+         margin: 6px;
+     } 
+
+}
+/* ============ Tab and  mini laptop Device============= */
+@media only screen and (min-width:768px) {
+/* ================================Header================================ */
+        header {
+            background: transparent;
+            position: relative;
+            z-index: 1;
+            color: white;
+            padding: 20px;
+            height: 90px;
+        }
+    
+        header nav{
+            display: block;
+            justify-content: center;   
+        }
+        header .logo{
+            font-size: 30px;
+            font-weight: bold;
+            color: var(--primary);
+        }
+        header nav  #ul {
+            display: none;
+            justify-content: center;
+            width: 100%;
+            background: #000;
+            margin-top: 40px;
+            padding: 30px;
+            border-radius: 8px;
+        }
+        header nav  a,li{
+            padding: 22px;
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+        }
+        header #subMenu{
+            display: none;
+            position: relative;
+            z-index: 3;
+            color: white;
+            background: var(--lightBlack);
+            width: 350px;
+            margin-top: 30px;
+            padding: 10px;
+        }
+    
+        header #parentSub:hover #subMenu{
+            display: block;
+        }
+        header #toggleMenu{
+            display: block;
+            font-size: 22px;  
+            float: right;
+            margin-top: -30px;
+            background: var(--lightBlack);
+            padding: 6px 7px;
+            color: var(--primary);
+            border-radius: 2px;
+          }
+        header #togglecencle{
+            font-size: 22px;  
+            display: block;
+            float: right;
+            margin-top: -30px;
+            display: none;
+            background: var(--lightBlack);
+            padding: 6px 7px;
+            color: var(--primary);
+            border-radius: 2px;
+        }
+        
+        header .orderNow{
+            display: none;
+            background: transparent;
+            border: 1px solid var(--primary);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-align: center;
+            height: 40px;
+            justify-content: center;
+            align-items: center;
+        }
+        header .orderNow:hover{
+            background: var(--primary);
+            
+        }
+/* =================================section1============================== */
+        #section1{
+            background: url(images/carousel-1\ \(1\).jpg);
+            height: 120vh;
+            margin-top: -155px;
+        }
+        #section1 #sectionContainer{
+            background: var(--shadow);
+            height: 120vh;
+        }
+        #section1 #sectionContainer .container{
+            padding-top: 27%;
+        }
+        span{
+            color: var(--primary);
+            font-weight: bold;
+        }
+        
+        .title{
+            font-family: "Playfair Display";
+            font-size: 80px;
+            line-height: 96px;
+            color: white;
+            font-weight: bold;
+        }
+        .description{
+            color: white;
+        }
+        
+        .commonBtn{
+            background: var(--primary);
+            border: 1px solid var(--primary);
+            color: white;
+            padding: 15px 38px;
+            border-radius: 30px;
+            text-align: center;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+          
+/* =================================section2============================== */
+        #section2{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background: white;
+            font-family: "Playfair Display";
+        }
+        #section2 .container{
+            display: block;
+            justify-content: center;
+            align-items: center; 
+        }
+
+        #section2 .gridContainer{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+        grid-template-columns: repeat(auto-fill, 300px);
+        }
+
+        #section2 .gritItem{
+            background: white;
+            box-shadow: 1px 1px 6px gray;
+            padding: 20px;
+            text-align: center;
+            height: 290px;
+            margin-top: 20px;
+        }
+    
+        #section2 .gritItem:hover{
+            background: var(--secondary);
+            box-shadow: 1px 1px 8px black;
+        }
+        #section2 i{
+            color: var(--primary);
+            font-size: 50px;
+            margin-top: 30px;
+        }
+
+        #section2 h1{
+            font-size: 50px;
+            margin-top: 20px;
+            font-weight: 800;
+        }
+    
+        #section2 span{
+            color: black;
+            font-size: 20px;
+    }
+/* =================================section3============================== */
+     #section3{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-bottom: 100px;
+    }
+
+    #section3 img{
+       width: 460px;
+    }
+    #section3 #div2{
+        margin-top: 40px;
+    }
+    #section3 .span{
+        color: var(--primary);
+        font-weight: bold;
+        text-shadow: none;
+
+    }
+
+    #section3 .title{
+        font-family: "Playfair Display";
+        font-size: 40px;
+        color: black;
+        line-height: 50px;
+        text-shadow: none;
+    }
+    #section3 p{
+        color: gray;
+    }
+    #section3 i{
+        color: var(--primary);
+        font-size: 18px;
+        float: left;
+        padding: 8px;
+     }
+     #section3 span{
+        color: black;
+        font-weight: bold;
+    }
+/* =================================section6============================== */
+    #section6{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: "Playfair Display";
+    }
+    #section6 span{
+        color: var(--primary);
+        font-weight: bold;
+    }
+    #section6 h1{
+        font-family: "Playfair Display";
+        font-size: 40px;
+        color: black;
+        line-height: 50px;
+    }
+    #section6 img{
+       width: 650px;
+    }
+    #section6 #div2{
+        margin-top: 40px;
+    }
+    #section6 p{
+        color: gray;
+    }
+    #section6 i{
+        height: 100%;
+        color:white;
+        font-size: 18px;
+        float: left;
+        padding: 8px;
+        background: var(--primary);
+        border-radius: 30px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+     } 
+     /* =================================section7============================== */
+    #section7{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Playfair Display";
+    }
+    #section7 h1 , span {
+        text-align: center;
+    }
+    #section7 .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(auto-fill , 360px);
+        column-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+    #section7 .gridContainer .gridItem1{
+        height: 80vh;
+        background: url(images/man1.jpg) no-repeat;
+        background-size: contain;
+    }
+
+    #section7 .gridContainer .gridItem2{
+        height: 80vh;
+        background: url(images/man2.jpg) no-repeat;
+        background-size: contain;
+    }
+    #section7 .gridContainer .gridItem3{
+        height: 70vh;
+        background: url(images/man3.jpg) no-repeat;
+        background-size: contain;
+    }
+    #section7 .gridContainer .gridItem4{
+        height: 70vh;
+        background: url(images/man4.jpg) no-repeat;
+        background-size: contain;
+    }
+
+    #section7 .surface{
+        display: none;
+        background: var(--shadow);
+        height: 0;
+        transition: 2s;
+    }
+    #section7 .cart:hover .surface{
+        display: block;
+        background: var(--shadow);
+        height: 64vh;
+    }
+    
+    #section7 .surface h1{
+        text-align: center;
+        padding-top: 140px;
+        color: white;
+    }
+    #section7 .surface p{
+        text-align: center;
+        color: white;
+    }
+    #section7 .surface .socialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #section7 i{
+        color: white;
+        background: var(--primary);
+        padding: 8px;
+        border-radius: 20px;
+        margin: 6px;
+    } 
+}
+/* ============  laptop Device============= */
+@media only screen and (min-width:992px) {
+/* ================================Header================================ */
+    header nav a{
+        text-decoration: none;
+    }
+    header {
+        background: transparent;
+        position: relative;
+        z-index: 1;
+        color: white;
+        padding: 20px;
+        height: 90px;
+    }
+
+    header nav{
+        display: flex;
+        justify-content: center;   
+    }
+    header .logo{
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--primary);
+    }
+    header nav  #ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 820px;
+        margin-top: 7px;
+        padding: 0px;
+        background: transparent;
+    }
+    header nav  #ul a{
+        padding: 10px;
+        color: white;
+    }
+    header #subMenu{
+        display: none;
+        position: relative;
+        z-index: 3;
+        color: white;
+        background: var(--lightBlack);
+        width: 150px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    header #parentSub:hover #subMenu{
+        display: block;
+    }
+    header #toggleMenu{
+        font-size: 27px;
+        display: none;
+    }
+    header #togglecencle{
+        font-size: 27px;  
+        display: block;
+        float: right;
+        margin-top: -30px;
+        display: none;
+    }
+
+    header .orderNow{
+        background: transparent;
+        border: 1px solid var(--primary);
+        color: white;
+        padding: 15px 30px;
+        border-radius: 30px;
+        text-align: center;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .orderNow:hover{
+        background: var(--primary);
+    }
+
+    .sticky{
+        background: var(--shadow);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    /* =================================section1============================== */
+    #section1{
+        background: url(images/carousel-1\ \(1\).jpg);
+        height: 130vh;
+        margin-top: -155px;
+    }
+    #section1 #sectionContainer{
+        background: var(--shadow);
+        height: 130vh;
+    }
+    #section1 #sectionContainer .container{
+        padding-top: 20%;
+    }
+    span{
+        color: var(--primary);
+        font-weight: bold;
+    }
+
+    .title{
+        font-family: "Playfair Display";
+        font-size: 80px;
+        font-weight: 96px;
+        color: white;
+    }
+    .description{
+        color: white;
+    }
+
+    .commonBtn{
+        background: var(--primary);
+        border: 1px solid var(--primary);
+        color: white;
+        padding: 15px 38px;
+        border-radius: 30px;
+        text-align: center;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    /* =================================section2============================== */
+    #section2{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: white;
+        font-family: "Playfair Display";
+    }
+    #section2 .container{
+        display: block;
+        justify-content: center;
+        align-items: center; 
+    }
+    #section2 .gridContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 250px);
+    }
+    #section2 .gritItem{
+        background: white;
+        box-shadow: 1px 1px 6px gray;
+        padding: 20px;
+        text-align: center;
+        height: 290px;
+        margin-top: 20px;
+    }
+
+    #section2 .gritItem:hover{
+        background: var(--secondary);
+        box-shadow: 1px 1px 8px black;
+    }
+    #section2 i{
+        color: var(--primary);
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    #section2 h1{
+        font-size: 50px;
+        margin-top: 20px;
+        font-weight: 800;
+    }
+
+    #section2 span{
+        color: black;
+        font-size: 20px;
+    }
+    /* =================================section3============================== */
+    #section3{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-bottom: 100px;
+    }
+
+    #section3 img{
+       width: 100%;
+    }
+    #section3 #div2{
+        margin-top: 40px;
+    }
+    #section3 .span{
+        color: var(--primary);
+        font-weight: bold;
+    }
+
+    #section3 .title{
+        font-family: "Playfair Display";
+        font-size: 40px;
+        color: black;
+        line-height: 50px;
+    }
+    #section3 p{
+        color: gray;
+    }
+    #section3 i{
+        color: var(--primary);
+        font-size: 18px;
+        float: left;
+        padding: 8px;
+     }
+     #section3 span{
+        color: black;
+        font-weight: bold;
+    } /* =================================section6============================== */
+    #section6{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: "Playfair Display";
+    
+    }
+    
+    #section6 span{
+        color: var(--primary);
+        font-weight: bold;
+    }
+    
+    #section6 h1{
+        font-family: "Playfair Display";
+        font-size: 40px;
+        color: black;
+        line-height: 50px;
+    }
+    #section6 img{
+       width: 100%;
+    }
+    #section6 #div2{
+        margin-top: 40px;
+    }
+    
+    #section6 p{
+        color: gray;
+    }
+    #section6 i{
+        height: 100%;
+        color:white;
+        font-size: 18px;
+        float: left;
+        padding: 8px;
+        background: var(--primary);
+        border-radius: 30px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+     }    
+}
+/* ============  Desktop Device============= */
+@media only screen and (min-width:1200px) {
+    /* ================================Header================================ */
+    header nav a{
+        text-decoration: none;
+    }
+    header {
+        background: transparent;
+        position: relative;
+        z-index: 1;
+        color: white;
+        padding: 20px;
+        height: 90px;
+    }
+
+    header nav{
+        display: flex;
+        justify-content: center;   
+    }
+    header .logo{
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--primary);
+    }
+    header nav  #ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 820px;
+        margin-top: 7px;
+        padding: 0px;
+        background: transparent;
+    }
+    header nav  #ul a{
+        padding: 10px;
+        color: white;
+    }
+    header #subMenu{
+        display: none;
+        position: relative;
+        z-index: 3;
+        color: white;
+        background: var(--lightBlack);
+        width: 150px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    header #parentSub:hover #subMenu{
+        display: block;
+    }
+    header #toggleMenu{
+        font-size: 27px;
+        display: none;
+    }
+    header #togglecencle{
+        font-size: 27px;  
+        display: block;
+        float: right;
+        margin-top: -30px;
+        display: none;
+    }
+
+    header .orderNow{
+        background: transparent;
+        border: 1px solid var(--primary);
+        color: white;
+        padding: 15px 30px;
+        border-radius: 30px;
+        text-align: center;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .orderNow:hover{
+        background: var(--primary);
+    }
+
+    .sticky{
+        background: var(--shadow);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    /* =================================section1============================== */
+    #section1{
+        background: url(images/carousel-1\ \(1\).jpg);
+        height: 130vh;
+        margin-top: -155px;
+    }
+    #section1 #sectionContainer{
+        background: var(--shadow);
+        height: 130vh;
+    }
+    #section1 #sectionContainer .container{
+        padding-top: 20%;
+    }
+    .span{
+        color: var(--primary);
+        font-weight: bold;
+    }
+
+    .title{
+        font-family: "Playfair Display";
+        font-size: 80px;
+        font-weight: 96px;
+        color: white;
+    }
+    .description{
+        color: white;
+    }
+
+    .commonBtn{
+        background: var(--primary);
+        border: 1px solid var(--primary);
+        color: white;
+        padding: 15px 38px;
+        border-radius: 30px;
+        text-align: center;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+/* =================================section2============================== */
+    #section2{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: white;
+        font-family: "Playfair Display";
+    }
+    #section2 .container{
+        display: block;
+        justify-content: center;
+        align-items: center; 
+    }
+    #section2 .gridContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 250px);
+    }
+    #section2 .gritItem{
+        background: white;
+        box-shadow: 1px 1px 6px gray;
+        padding: 20px;
+        text-align: center;
+        height: 290px;
+        margin-top: 20px;
+    }
+
+    #section2 .gritItem:hover{
+        background: var(--secondary);
+        box-shadow: 1px 1px 8px black;
+    }
+    #section2 i{
+        color: var(--primary);
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    #section2 h1{
+        font-size: 50px;
+        margin-top: 20px;
+        font-weight: 800;
+    }
+
+    #section2 span{
+        color: black;
+        font-size: 20px;
+    }
+/* =================================section3============================== */
+    #section3{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-bottom: 100px;
+    }
+
+    #section3 img{
+       width: 100%;
+    }
+    #section3 #div2{
+        margin-top: 40px;
+    }
+    #section3 .span{
+        color: var(--primary);
+        font-weight: bold;
+    }
+
+    #section3 .title{
+        font-family: "Playfair Display";
+        font-size: 40px;
+        color: black;
+        line-height: 50px;
+    }
+    #section3 p{
+        color: gray;
+    }
+    #section3 i{
+        color: var(--primary);
+        font-size: 18px;
+        float: left;
+        padding: 8px;
+     }
+     #section3 span{
+        color: black;
+        font-weight: bold;
+    }
+/* =================================section6============================== */
+    #section6{
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: "Playfair Display";
+
+    }
+
+    #section6 span{
+        color: var(--primary);
+        font-weight: bold;
+    }
+
+    #section6 h1{
+        font-family: "Playfair Display";
+        font-size: 40px;
+        color: black;
+        line-height: 50px;
+    }
+    #section6 img{
+    width: 100%;
+    }
+    #section6 #div2{
+        margin-top: 40px;
+    }
+
+    #section6 p{
+        color: gray;
+    }
+    #section6 i{
+        height: 100%;
+        color:white;
+        font-size: 18px;
+        float: left;
+        padding: 8px;
+        background: var(--primary);
+        border-radius: 30px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+    }  /* =================================section7============================== */
+    #section7{
+    height: 100%;
+    width: 100%;
+    background: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Playfair Display";
+    }
+    #section7 h1 , span {
+    text-align: center;
+    }
+    #section7 .gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , 260px);
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    }
+    #section7 .gridContainer .gridItem1{
+    height: 50vh;
+    background: url(images/man1.jpg) no-repeat;
+    background-size: contain;
+    }
+
+    #section7 .gridContainer .gridItem2{
+    height: 50vh;
+    background: url(images/man2.jpg) no-repeat;
+    background-size: contain;
+    }
+    #section7 .gridContainer .gridItem3{
+    height: 50vh;
+    background: url(images/man3.jpg) no-repeat;
+    background-size: contain;
+    }
+    #section7 .gridContainer .gridItem4{
+    height: 50vh;
+    background: url(images/man4.jpg) no-repeat;
+    background-size: contain;
+    }
+
+    #section7 .surface{
+    display: none;
+    background: var(--shadow);
+    height: 0;
+    transition: 2s;
+    }
+    #section7 .cart:hover .surface{
+    display: block;
+    background: var(--shadow);
+    height: 45vh;
+    }
+
+    #section7 .surface h1{
+    text-align: center;
+    padding-top: 110px;
+    color: white;
+    }
+    #section7 .surface p{
+    text-align: center;
+    color: white;
+    }
+    #section7 .surface .socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #section7 i{
+    color: white;
+    background: var(--primary);
+    padding: 8px;
+    border-radius: 20px;
+    margin: 6px;
+    }
+  
+}
